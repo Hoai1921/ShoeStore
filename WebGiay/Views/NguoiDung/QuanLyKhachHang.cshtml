@@ -1,0 +1,73 @@
+﻿@model List<KhachHang>
+@using WebGiay.Models
+@{
+    ViewBag.Title = "QuanLyKhachHang";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="location">
+                <ul>
+                    <li><strong> Tất Cả Khách Hàng</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="table-responsive">
+                <table class="table-bordered table table-hover">
+                    <thead>
+                        <tr>
+                            <th class="cart-product-name">Mã Khách Hàng</th>
+                            <th>Họ và Tên</th>
+                            <th>Giới Tính</th>
+                            <th>Tuổi</th>
+                            <th>Email</th>
+                            <th>Số Điện Thoại</th>
+                            <th>Tài Khoản</th>
+                            <th>Địa Chỉ</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        @{
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="cart-product-name">
+                                        @item.MaKH
+                                    </td>
+                                    <td class="cart-product-name">
+                                        @item.HoTen
+                                    </td>
+                                    <td>
+                                        @item.GioiTinh
+                                    </td>
+                                    <td>
+                                        @item.Tuoi
+                                    </td>
+                                    <td>
+                                        @item.Email
+                                    </td>
+                                    <td>
+                                        @item.SDT
+                                    </td>
+                                    <td>
+                                        @item.TaiKhoan
+                                    </td>
+                                    <td>
+                                        @item.DiaChi
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>

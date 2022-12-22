@@ -1,0 +1,307 @@
+﻿
+@model List<SanPham>
+@using WebGiay.Models
+@{
+    ViewBag.Title = "TrangChu";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+<div class="shopping-cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="location">
+                    <ul>
+                        <li><strong>Trang Chủ</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- slider area start -->
+<div class="slider-area home1">
+    <div class="bend niceties preview-2">
+        <div id="nivoslider" class="slides">
+            <img src="~/template/img/slider/slider-1.jpg" alt="" title="#slider-direction-1" />
+            <img src="~/template/img/slider/slider-2.jpg" alt="" title="#slider-direction-2" />
+        </div>
+        <!-- direction 1 -->
+        <div id="slider-direction-1" class="t-cn slider-direction">
+            <div class="slider-progress"></div>
+            <div class="slider-content t-lfl s-tb slider-1">
+                <div class="title-container s-tb-c title-compress">
+                    <h1 class="title1">Sale products</h1>
+                    <h2 class="title2">nike Ari max 2015</h2>
+                    <h3 class="title3">Lorem Ipsum is simply dummy text of the printing</h3>
+                    <a><span>read more</span></a>
+                </div>
+            </div>
+        </div>
+        <!-- direction 2 -->
+        <div id="slider-direction-2" class="slider-direction">
+            <div class="slider-progress"></div>
+            <div class="slider-content t-lfl s-tb slider-2">
+                <div class="title-container s-tb-c">
+                    <h1 class="title1">Sale products</h1>
+                    <h2 class="title2">GET UP TO 50% SALE</h2>
+                    <h3 class="title3">Lorem Ipsum is simply dummy text of the printing</h3>
+                    <a><span>read more</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- slider area end -->
+<!-- banner area start -->
+<div class="banner-area">
+    <div class="single-banner">
+        <div class="part-1">
+            <div class="box-1 box">
+                <h4>nike ari max 2015</h4>
+                <h2>air superiority</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a>shopping now</a>
+            </div>
+            <div class="box-2">
+                <a>
+                    <img src="~/template/img/banner/banner-2.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="part-2">
+            @using (Html.BeginForm("Searching", "TimKiem", FormMethod.Post))
+            {
+                <div class="search-box">
+                    <form action="#">
+                        @Html.TextBox("txtKeyWord", "", htmlAttributes: new { @class = "form-control form-control-lg form-control-borderless", @type = "search", @placeholder = "Tìm kiếm theo chủ đề hoặc từ khóa" })
+
+                    </form>
+                </div>
+            }
+            <div class="box-3">
+                <a>
+                    <img src="~/template/img/banner/banner-1.jpg" alt="">
+                </a>
+            </div>
+            <div class="box-4 box">
+                <h4>nike ari max 2015</h4>
+                <h2>air superiority</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a>shopping now</a>
+            </div>
+            <div class="box-5">
+                <a>
+                    <img src="~/template/img/banner/banner-3.jpg" alt="">
+                </a>
+            </div>
+            <div class="box-6">
+                <a>
+                    <img src="~/template/img/banner/banner-4.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- banner area end -->
+<!-- products area start -->
+@{
+    CuaHangGiayEntities db = new CuaHangGiayEntities();
+    <div class="products-area">
+        <div class="container">
+            <div class="products">
+                <div class="row">
+                    @{
+                        int i = 0;
+                        foreach (var item in Model)
+                        {
+                            i++;
+                            var anh = db.AnhSPs.Where(x => x.MaSP == item.MaSP).ToList();
+                            <div class="col-md-3">
+                                <div class="single-product">
+                                    <div class="product-img">
+                                        @if (@anh.Count() != 0)
+                                        {
+                                            <a href="@Url.Action("ChiTietSanPham", "SanPham", new { @MaSP = item.MaSP })" style="width: 263px;height:263px;">
+                                                <img src="@Url.Content("/image/" + anh[1].URL)" alt="" class="primary-img">
+                                                <img src="@Url.Content("/image/" + anh[2].URL)" alt="" class="secondary-img">
+                                            </a>
+                                        }
+                                        else if (@anh.Count() == 0)
+                                        {
+                                            <p>Chưa có Ảnh</p>
+                                        }
+                                    </div>
+                                    <div class="product-name">
+                                        <a href="@Url.Action("ChiTietSanPham", "SanPham", new { @MaSP = item.MaSP })" title="Fusce aliquam">@item.TenSP</a>
+                                    </div>
+                                    <div class="price-rating">
+                                        <span>@String.Format("{0:N0}", @item.Gia)</span>
+                                        <span>VND</span>
+                                    </div>
+                                    <div class="actions">
+                                        <button type="submit" class="cart-btn" title="Add to cart"><a href="@Url.Action("ThemGioHang","GioHang",new{@sMaSP = item.MaSP , @strUrl = Request.Url.ToString()})">Thêm Vào Giỏ Hàng</a></button>
+                                        <ul class="add-to-link">
+                                            <li><a class="modal-view" href="@Url.Action("ChiTietSanPham", "SanPham", new { @MaSP = item.MaSP })"> <i class="fa fa-search"></i></a></li>
+                                            <li><a href="@Url.Action("ThemYeuThich","YeuThich",new{@sMaSP = item.MaSP , @strUrl = Request.Url.ToString()})"> <i class="fa fa-heart-o"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            if (i % 4 == 0)
+                            {
+                                <div style="clear:both"></div>
+                            }
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- another banner area start -->
+    <img src="~/template/img/banner/banner-6.jpg" alt="" class="col-md-12">
+    <!-- another banner area end -->
+    <!-- new products area start -->
+    <div class="new-products-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h2>DANH SÁCH SẢN PHẨM</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="new-product-slider">
+                    @{
+                        foreach (var item in Model)
+                        {
+                            var anh = db.AnhSPs.Where(x => x.MaSP == item.MaSP).ToList();
+                            <div class="col-md-12">
+                                <div class="single-product">
+                                    <div class="product-img">
+                                        @if (@anh.Count() != 0)
+                                        {
+                                            <a href="@Url.Action("ChiTietSanPham", "SanPham", new { @MaSP = item.MaSP })">
+                                                <img src="@Url.Content("/image/" + anh[1].URL)" alt="" class="primary-img">
+                                                <img src="@Url.Content("/image/" + anh[2].URL)" alt="" class="secondary-img">
+                                            </a>
+                                        }
+                                        else if (@anh.Count() == 0)
+                                        {
+                                            <p>Chưa có Ảnh</p>
+                                        }
+                                    </div>
+                                    <div class="product-name">
+                                        <a href="@Url.Action("ChiTietSanPham", "SanPham", new { @MaSP = item.MaSP })" title="Fusce aliquam">@item.TenSP</a>
+                                    </div>
+                                    <div class="price-rating">
+                                        <span>@String.Format("{0:N0}", @item.Gia)</span>
+                                        <span>VND</span>
+                                    </div>
+                                    <div class="actions">
+                                        <button type="submit" class="cart-btn" title="Add to cart"><a href="@Url.Action("ThemGioHang","GioHang",new{@sMaSP = item.MaSP , @strUrl = Request.Url.ToString()})">Thêm Vào Giỏ Hàng</a></button>
+                                        <ul class="add-to-link">
+                                            <li><a class="modal-view" href="@Url.Action("ChiTietSanPham", "SanPham", new { @MaSP = item.MaSP })"> <i class="fa fa-search"></i></a></li>
+                                            <li><a href="@Url.Action("ThemYeuThich","YeuThich",new{@sMaSP = item.MaSP , @strUrl = Request.Url.ToString()})"> <i class="fa fa-heart-o"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- new products area end -->
+    <!-- another banner area start -->
+    <div class="another-banner-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="big-banner">
+                        <a href="#">
+                            <img src="~/template/img/banner/banner-10.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- another banner area end -->
+    <!-- blog area start -->
+    <div class="blog-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="blog-heading">
+                        <h2>Tin Tức</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+
+                    @{
+                        var tt = db.TinTucs.ToList();
+                        foreach (var item in tt)
+                        {
+                            if (tt.GetHashCode() == 4)
+                            {
+                                break;
+                            }
+                            <div class="single-blog-post">
+                                <div class="blog-img">
+                                    <a href="#">
+                                        <img src="@Url.Content("/image/" + item.Anh)" alt="">
+                                    </a>
+                                </div>
+                                <div class="blog-content">
+                                    <a href="#" class="blog-title">@item.TenTT</a>
+                                    <p>@item.MoTa</p>
+                                    <a href="@Url.Action("ChiTietTinTuc","TinTuc",new {@MaTT=item.MaTT})" class="readmore">Đọc thêm ></a>
+                                </div>
+                            </div>
+                        }
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+<!-- blog area end -->
+<!-- newsleter area start -->
+<div class="newsleter-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="newsleter">
+                    <h3>newsletter</h3>
+                    <p>Subscribe to the james mailing list to receive updates on new arrivals, special offers and other discount information.</p>
+                    <div class="Subscribe">
+                        <form action="#">
+                            <input type="text" title="Sign up">
+                            <button type="submit" title="Subscribe">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="follow">
+                    <h3>follow</h3>
+                    <p>Subscribe to the james mailing list to receive updates on new arrivals, special offers and other discount information.</p>
+                    <ul class="follow-link">
+                        <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+                        <li><a href="#"> <i class="fa fa-rss"></i> </a></li>
+                        <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
+                        <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- newsleter area end -->

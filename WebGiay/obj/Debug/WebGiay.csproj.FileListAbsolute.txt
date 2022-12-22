@@ -1,0 +1,280 @@
+E:\Chuyên môn\WebGiay\WebGiay\bin\WebGiay.dll.config
+E:\Chuyên môn\WebGiay\WebGiay\bin\WebGiay.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\WebGiay.pdb
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\csc.exe
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\csc.exe.config
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\csc.rsp
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\csi.exe
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\csi.exe.config
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\csi.rsp
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\System.Buffers.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\System.Collections.Immutable.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\System.Memory.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\System.Numerics.Vectors.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\System.Reflection.Metadata.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\vbc.exe
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\vbc.exe.config
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\vbc.rsp
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe
+E:\Chuyên môn\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe.config
+E:\Chuyên môn\WebGiay\WebGiay\bin\Antlr3.Runtime.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\EntityFramework.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\EntityFramework.SqlServer.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authentication.Core.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authorization.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Cors.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.Extensions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.Features.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Mvc.Core.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Mvc.Cors.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Routing.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.WebUtilities.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.DependencyModel.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.ObjectPool.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Options.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Primitives.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Net.Http.Headers.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Web.Infrastructure.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\Newtonsoft.Json.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Buffers.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.ComponentModel.Annotations.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.IO.Pipelines.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Memory.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Numerics.Vectors.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Text.Encodings.Web.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Threading.Tasks.Extensions.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.Cors.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.Helpers.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.Mvc.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.Optimization.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.Razor.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.WebPages.Deployment.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.WebPages.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.WebPages.Razor.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\WebGrease.dll
+E:\Chuyên môn\WebGiay\WebGiay\bin\EntityFramework.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\EntityFramework.SqlServer.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authentication.Core.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authorization.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Cors.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.Extensions.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.Features.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Mvc.Core.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Mvc.Cors.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Routing.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.WebUtilities.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.ObjectPool.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Options.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Primitives.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Microsoft.Net.Http.Headers.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Newtonsoft.Json.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Buffers.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.IO.Pipelines.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Memory.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Numerics.Vectors.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Text.Encodings.Web.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Threading.Tasks.Extensions.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.Helpers.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.Mvc.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.Razor.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.WebPages.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.WebPages.Deployment.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.WebPages.Razor.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\System.Web.Optimization.xml
+E:\Chuyên môn\WebGiay\WebGiay\bin\Antlr3.Runtime.pdb
+E:\Chuyên môn\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.AssemblyReference.cache
+E:\Chuyên môn\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CoreCompileInputs.cache
+E:\Chuyên môn\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CopyComplete
+E:\Chuyên môn\WebGiay\WebGiay\obj\Debug\WebGiay.dll
+E:\Chuyên môn\WebGiay\WebGiay\obj\Debug\WebGiay.pdb
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\WebGiay.dll.config
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\WebGiay.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\WebGiay.pdb
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\csc.exe
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\csc.exe.config
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\csc.rsp
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\csi.exe
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\csi.exe.config
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\csi.rsp
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\System.Buffers.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\System.Collections.Immutable.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\System.Memory.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\System.Numerics.Vectors.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\System.Reflection.Metadata.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\vbc.exe
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\vbc.exe.config
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\vbc.rsp
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\roslyn\VBCSCompiler.exe.config
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Antlr3.Runtime.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\EntityFramework.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\EntityFramework.SqlServer.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authentication.Core.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authorization.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Cors.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.Extensions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.Features.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Mvc.Core.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Mvc.Cors.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Routing.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.WebUtilities.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.DependencyModel.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.ObjectPool.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Options.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Primitives.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Net.Http.Headers.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Web.Infrastructure.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Newtonsoft.Json.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Buffers.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.ComponentModel.Annotations.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.IO.Pipelines.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Memory.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Numerics.Vectors.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Text.Encodings.Web.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Threading.Tasks.Extensions.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.Cors.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.Helpers.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.Mvc.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.Optimization.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.Razor.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.WebPages.Deployment.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.WebPages.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.WebPages.Razor.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\WebGrease.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\EntityFramework.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\EntityFramework.SqlServer.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authentication.Core.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authorization.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Cors.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.Extensions.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Http.Features.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Mvc.Core.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Mvc.Cors.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Routing.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.AspNetCore.WebUtilities.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.ObjectPool.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Options.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Extensions.Primitives.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Microsoft.Net.Http.Headers.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Newtonsoft.Json.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Buffers.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.IO.Pipelines.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Memory.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Numerics.Vectors.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Text.Encodings.Web.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Threading.Tasks.Extensions.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.Helpers.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.Mvc.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.Razor.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.WebPages.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.WebPages.Deployment.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.WebPages.Razor.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\System.Web.Optimization.xml
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\bin\Antlr3.Runtime.pdb
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.AssemblyReference.cache
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CoreCompileInputs.cache
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\obj\Debug\WebGiay.csproj.CopyComplete
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\obj\Debug\WebGiay.dll
+E:\Năm 3\Kỳ 2\Chuyên Môn\WebGiay\WebGiay\obj\Debug\WebGiay.pdb

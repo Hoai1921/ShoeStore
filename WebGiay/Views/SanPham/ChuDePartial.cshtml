@@ -1,0 +1,10 @@
+﻿
+@model List<ThuongHieu>
+@using WebGiay.Models;
+
+@foreach (var item in Model)
+{
+    <span>
+        <a href="@Url.Action("SanPhamTheoLoai", "SanPham", new { @MaTH = item.MaTH })">@item.TenTH</a>
+    </span>
+}

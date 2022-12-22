@@ -1,0 +1,54 @@
+﻿@model List<SanPham>
+@using WebGiay.Models
+@{
+    ViewBag.Title = "Searching";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<img src="~/template/img/banner/banner-6.jpg" alt="" class="col-md-12">
+<div class="products-area">
+    <div class="container">
+        <div class="products">
+            <div class="row">
+                <h2>@ViewBag.ThongBao</h2>
+                @{
+                    int i = 0;
+                    foreach (var item in Model)
+                    {
+                        i++;
+                        QLCuaHangGiayEntities db = new QLCuaHangGiayEntities();
+                        var anh = db.AnhSPs.Where(x => x.MaSP == item.MaSP).ToList();
+                        <div class="col-md-3">
+                            <div class="single-product">
+                                <div class="product-img">
+                                    <a href="@Url.Action("ChiTietSanPham", "SanPham", new {@MaSP=item.MaSP})">
+                                        <img src="@Url.Content("/image/" + anh[0].URL)" alt="" class="primary-img" style="width:263px;height:263px">
+                                        <img src="@Url.Content("/image/" + anh[1].URL)" alt="" class="secondary-img" style="width:263px;height:263px">
+                                    </a>
+                                </div>
+                                <div class="product-name">
+                                    <a href="@Url.Action("ChiTietSanPham", "SanPham", new {@MaSP=item.MaSP})" title="Fusce aliquam">@item.TenSP</a>
+                                </div>
+                                <div class="price-rating">
+                                    <span>@String.Format("{0:N0}", @item.Gia)</span>
+                                    <span>VND</span>
+                                </div>
+                                <div class="actions">
+                                    <button type="submit" class="cart-btn" title="Add to cart">Thêm vào giỏ hàng</button>
+                                    <ul class="add-to-link">
+                                        <li><a class="modal-view" data-target="#productModal" data-toggle="modal" href="#"> <i class="fa fa-search"></i></a></li>
+                                        <li><a href="#"> <i class="fa fa-heart-o"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        if (i % 4 == 0)
+                        {
+                            <div style="clear:both"></div>
+                        }
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>

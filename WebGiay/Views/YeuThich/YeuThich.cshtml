@@ -1,0 +1,63 @@
+﻿@using WebGiay.Models
+@model List<YeuThich>
+@{
+    ViewBag.Title = "YeuThich";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+<div class="shopping-cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="location">
+                    <ul>
+                        <li><strong> Yêu Thích </strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                    <table class="table-bordered table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="cart-item-img">Hình Ảnh</th>
+                                <th class="cart-product-name">Tên Sản Phẩm</th>
+                                <th>Thương Hiệu</th>
+                                <th class="unit-price">Đơn Giá(VND)</th>
+                                <th class="remove-icon"></th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            @{
+                                QLCuaHangGiayEntities db = new QLCuaHangGiayEntities();
+                                foreach (var item in Model)
+                                {
+                                    var th = db.ThuongHieux.SingleOrDefault(n => n.MaTH == item.MaTH);
+                                    <tr>
+                                        <td class="cart-item-img">
+                                            <a href="@Url.Action("ChiTietSanPham","SanPham",new {@MaSP=item.sMaSP })">
+                                                <img src="@Url.Content("/image/" + item.Anh)" alt="" style="width:152px;height:152px;">
+                                            </a>
+                                        </td>
+                                        <td class="cart-product-name">
+                                            <a href="#">@item.TenSP</a>
+                                        </td>
+                                        <td class="cart-product-name">
+                                            <a href="#">@th.TenTH</a>
+                                        </td>
+                                        <td class="move-wishlist">
+                                            <a href="#">@item.Gia</a>
+                                        </td>
+                                        <td><button><a href="@Url.Action("XoaYeuThich", "YeuThich", new { sMaSP = item.sMaSP })">Xóa</a></button></td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,65 @@
+﻿@model WebGiay.Models.KhachHang
+@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+
+<div class="shopping-cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="location">
+                    <ul>
+                        <li><strong>Đăng Nhập</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="login-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <div class="login">
+                    <div class="login-form-container">
+                        <div class="login-text">
+                            <h2>Đăng Nhập</h2>
+                            <span>Vui lòng đăng nhập tài khoản của bạn</span>
+                        </div>
+                        <div class="login-form">
+                            <form action="#" method="post">
+                                @Html.EditorFor(model => model.TaiKhoan, new { htmlAttributes = new { @type = "text", @name = "name", @placeholder = "Tên Tài Khoản", @required = "" } })
+                                @Html.EditorFor(model => model.MatKhau, new { htmlAttributes = new { @type = "password", @name = "password", @placeholder = "Mật Khẩu", @required = "", @id = "myInput" } })
+
+                                <div class="button-box">
+                                    <div class="login-toggle-btn">
+                                        <input id="check3" name="check3" type="checkbox" value="show password" onclick="myFunction()">
+                                        <label for="check3" style="color: #fa3253">Xem mật khẩu</label>
+
+                                    </div>
+                                    <button type="submit" class="default-btn">Đăng Nhập</button>
+                                </div>
+
+                                <label for="check3" style="color: #fa3253">@ViewBag.DangNhapSai</label>
+                                <div><a href="@Url.Action("DangKy","NguoiDung")">Chưa có tài khoản</a></div>
+                                <!-- script for show password -->
+                                <script>
+                                    function myFunction() {
+                                        var x = document.getElementById("myInput");
+                                        if (x.type === "password") {
+                                            x.type = "text";
+                                        } else {
+                                            x.type = "password";
+                                        }
+                                    }
+                                </script>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,72 @@
+﻿@model WebGiay.Models.AnhSP
+@{
+    ViewBag.Title = "QLAnh";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+
+<div class="shopping-cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="location">
+                    <ul>
+                        <li><strong> Quản Lý Ảnh </strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div><a href="@Url.Action("ThemAnh","Anh")" class="btn btn-default">Thêm Ảnh Mới</a></div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                    <table class="table-bordered table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Mã Ảnh</th>
+                                <th class="cart-item-img">Hình Ảnh</th>
+                                <th class="cart-product-name">Tên Tin Tức</th>
+                                <th class="unit-price">Mô Tả</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            @{
+                                foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td class="cart-product-name">
+                                            <a href="#">@item.MaTT</a>
+                                        </td>
+                                        <td>
+                                            @if (item.Anh != null)
+                                            {
+                                                <a href="single-product.html">
+                                                    <img src="@Url.Content("/image/" + item.Anh)" alt="" style="width:152px;height:152px;">
+                                                </a>
+                                            }
+                                            else
+                                            {
+                                                <p>Chưa có ảnh</p>
+                                            }
+                                        </td>
+                                        <td class="cart-product-name">
+                                            <a href="#">@item.TenTT</a>
+                                        </td>
+                                        <td class="move-wishlist">
+                                            <a href="#">@item.MoTa</a>
+                                        </td>
+                                        <td>
+                                            <a href="#" class="btn btn-default">Cập Nhật</a>
+                                            <a href="#" class="btn btn-default">Xoá</a>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

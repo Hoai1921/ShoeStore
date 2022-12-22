@@ -1,0 +1,72 @@
+﻿@model WebGiay.Models.KhachHang
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<div class="shopping-cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="location">
+                    <ul>
+                        <li><strong>Đăng Ký</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="login-area ptb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <div class="login">
+                    <div class="login-form-container">
+                        <div class="login-text">
+                            <h2>Đăng Ký</h2>
+                            <span>Vui lòng đăng ký tài khoản theo mẫu bên dưới</span>
+                        </div>
+                        <div class="login-form">
+                            <form action="#" method="post">
+                                @Html.EditorFor(model => model.HoTen, new { htmlAttributes = new { @placeholder = "Họ và tên", @name = "Name", @type = "text", @required = "" } })
+                                @Html.EditorFor(model => model.GioiTinh, new { htmlAttributes = new { @placeholder = "Giới tính", @name = "Sex", @type = "text", @required = "" } })
+                                @Html.EditorFor(model => model.DiaChi, new { htmlAttributes = new { @placeholder = "Địa chỉ", @name = "Address", @type = "text", @required = "" } })
+                                @Html.EditorFor(model => model.SDT, new { htmlAttributes = new { @placeholder = "Số điện thoại", @name = "PhoneNumber", @type = "text", @required = "" } })
+                                @Html.EditorFor(model => model.Tuoi, new { htmlAttributes = new { @placeholder = "Tuổi", @name = "Age", @type = "int", @required = "" } })
+                                @Html.EditorFor(model => model.TaiKhoan, new { htmlAttributes = new { @placeholder = "Tên tài khoản", @name = "UserName", @type = "text", @required = "" } })
+                                @Html.EditorFor(model => model.MatKhau, new { htmlAttributes = new { @placeholder = "Mật khẩu", @name = "Password", @type = "password", @id = "password1", @required = "" } })
+                                @Html.EditorFor(model => model.XNMatKhau, new { htmlAttributes = new { @placeholder = "Xác nhận mật khẩu", @name = "ConfirmPassword", @type = "password", @id = "password2", @required = "" } })
+
+                                <div class="button-box">
+                                    <button type="submit" class="default-btn">Đăng Ký</button>
+                                </div>
+                                <label>@ViewBag.ThanhCong</label>
+                                <label>@ViewBag.TrungTaiKhoan</label>
+                                <label>@ViewBag.TuoiNho</label>
+                                <div><a href="@Url.Action("DangNhap","NguoiDung")">Đã có tài khoản</a></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- password-script -->
+<script>
+    window.onload = function () {
+        document.getElementById("password1").onchange = validatePassword;
+        document.getElementById("password2").onchange = validatePassword;
+    }
+
+    function validatePassword() {
+        var pass2 = document.getElementById("password2").value;
+        var pass1 = document.getElementById("password1").value;
+        if (pass1 != pass2)
+            document.getElementById("password2").setCustomValidity("Mật khẩu không đồng nhất");
+        else
+            document.getElementById("password2").setCustomValidity('');
+        //empty string means no validation error
+    }
+</script>

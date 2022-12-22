@@ -1,0 +1,78 @@
+﻿
+@model List<ChiTietHoaDon>
+@using WebGiay.Models
+@{
+    var ViewBag_SP = ViewBag.SanPham as List<WebGiay.Models.SanPham>;
+    int ViewBag_ma = (int)ViewBag.ma;
+    ViewBag.Title = "ChiTietHoaDon";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+@{
+    QLCuaHangGiayEntities db = new QLCuaHangGiayEntities();
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="location">
+                    <ul>
+                        <li><strong> Chi Tiết Hoá Đơn @ViewBag.ma</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                    <table class="table-bordered table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Sản Phẩm</th>
+                                <th>Hình Ảnh</th>
+                                <th>Số Lượng</th>
+                                <th>Đơn Giá(VND)</th>
+                                <th>Tổng Tiền(VND)</th>
+                            </tr>
+                        </thead>
+                        @foreach (var item in Model)
+                        {
+                            var anh = db.AnhSPs.Where(x => x.MaSP == item.MaSP).ToList();
+                            <tbody class="text-center">
+                                <tr>
+                                    @foreach (var i in ViewBag_SP)
+                                    {
+                                        if (i.MaSP == item.MaSP)
+                                        {
+                                            <td class="cart-product-name">@i.TenSP</td>
+                                        }
+                                    }
+                                    <td class="cart-Model[i]-img">
+                                        @if (@anh.Count() != 0)
+                                        {
+                                            <a href="@Url.Action("ChiTietSanPham", "SanPham", new { @MaSP = item.MaSP })">
+                                                <img src="@Url.Content("/image/" + anh[1].URL)" alt="" class="secondary-img" style="width:152px;height:152px;">
+                                            </a>
+                                        }
+                                        else if (@anh.Count() == 0)
+                                        {
+                                            <p>Chưa có Ảnh</p>
+                                        }
+                                    </td>
+                                    <td >
+                                        <a href="#">@item.SoLuong</a>
+                                    </td>
+                                    <td>
+                                        <a href="#">@String.Format("{0:N0}", item.Gia)</a>
+                                    </td>
+                                    <td>
+                                        <a>@String.Format("{0:N0}", @item.ThanhTien)</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+}
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,68 @@
+﻿
+@model List<HoaDon>
+@using WebGiay.Models
+@{
+    var ViewBag_KH = ViewBag.KhachHang as List<WebGiay.Models.KhachHang>;
+    ViewBag.Title = "QuanLyHoaDon";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="location">
+                <ul>
+                    <li><strong> Tất Cả Hoá Đơn</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="table-responsive">
+                <table class="table-bordered table table-hover">
+                    <thead>
+                        <tr>
+                            <th class="cart-product-name">Mã Hoá Đơn</th>
+                            <th>Ngày Bán</th>
+                            <th>Khách Hàng</th>
+                            <th>Tổng Tiền(VND)</th>
+                            <th class="remove-icon"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        @{
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="cart-product-name">
+                                        <a href="#">@item.SoHD</a>
+                                    </td>
+                                    <td class="cart-product-name">
+                                        <a href="#">@item.NgayBan</a>
+                                    </td>
+                                    @foreach (var i in ViewBag_KH)
+                                    {
+                                        if (i.MaKH == item.MaKH)
+                                        {
+                                            <td>@i.HoTen</td>
+                                        }
+                                    }
+                                    
+                                <td class="move-wishlist">
+                                    <a>@String.Format("{0:N0}", @item.TongTien)</a>
+                                </td>
+                                    <td class="quantity">
+                                        <a href="@Url.Action("ChiTietHoaDon","HoaDon",new {@SoHD = item.SoHD })" class="btn btn-default">Chi Tiết</a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
+
